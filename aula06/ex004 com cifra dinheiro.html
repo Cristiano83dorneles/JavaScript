@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <style>
+        body {
+            background-color: rgb(13, 61, 61);
+            font-family: 'Courier New', Courier, monospace;
+            color: white;
+            
+        }
+
+        h1 {
+            font: 20px bolder; 
+            text-align: center;
+        }
+
+        p {
+            font: 16px bolder;
+        }
+
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro Programa</title>
+</head>
+<body>
+    <h1>Olá, Mundo!</h1>
+    <p>Estou livre da maldição!</p>
+
+    <script>
+        var sal1 = Number (window.prompt ('Qual foi sua comissão da primeira venda?'))
+        var sal2 = Number (window.prompt('Qual foi a sua segunda comissão?'))
+        var soma = sal1 + sal2
+
+        document.write (`Seu resultado pelas comissões recebidas foi de ${soma.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})}`)
+
+    </script>
+ 
+</body>
+</html>
